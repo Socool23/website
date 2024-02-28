@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>http://localhost:58428/post/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>http://localhost:58428/%3C%E5%A1%AB%E5%86%99%E5%BC%80%E6%94%BE%E5%9B%BE%E5%BD%A2%E3%80%81Twitter%20%E5%8D%A1%E7%89%87%E7%9A%84%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E6%88%96%E8%B7%AF%E5%BE%84%3E</url>
+      <link>http://localhost:58428/%3C%E5%A1%AB%E5%86%99%E5%BC%80%E6%94%BE%E5%9B%BE%E5%BD%A2%E3%80%81Twitter%20%E5%8D%A1%E7%89%87%E7%9A%84%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E6%88%96%E8%B7%AF%E5%BE%84%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Feb 2024 20:23:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:58428/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第一篇文章</title>
+      <link>http://localhost:58428/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Sun, 25 Feb 2024 20:23:25 +0800</pubDate>
+      <guid>http://localhost:58428/post/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>11111111</description>
+    </item>
+  </channel>
+</rss>

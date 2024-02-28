@@ -1,0 +1,165 @@
+
+# 站点基础 URL
+baseURL: "https://127.0.0.1/"
+# 站点标题
+title: ExampleSite
+# 分页数
+paginate: 5
+# 使用的主题
+theme: PaperMod
+
+# 启用 Robots.txt
+enableRobotsTXT: true
+# 构建草稿
+buildDrafts: false
+# 构建未来日期的内容
+buildFuture: false
+# 构建过期的内容
+buildExpired: false
+
+# Google 分析（取消注释并填写您的ID来启用）
+# googleAnalytics: UA-123-45
+
+# 最小化设置
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# 站点参数
+params:
+  env: production # 启用 Google Analytics、OpenGraph 等
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # 多个作者
+  # author: ["Me", "You"]
+  images: ["<填写开放图形、Twitter 卡片的图片链接或路径>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # 默认主题（自动、深色、浅色）
+  disableThemeToggle: false
+
+  # 阅读时间、分享按钮、导航链接等显示设置
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # 资源设置（图标等）
+  assets:
+    # 禁用 Highlight.js
+    # disableHLJS: true
+    # 禁用指纹识别
+    # disableFingerprinting: true
+    favicon: "<填写 favicon 链接或绝对 URL>"
+    favicon16x16: "<填写 16x16 favicon 链接或绝对 URL>"
+    favicon32x32: "<填写 32x32 favicon 链接或绝对 URL>"
+    apple_touch_icon: "<填写 Apple 触摸图标链接或绝对 URL>"
+    safari_pinned_tab: "<填写 Safari 固定标签图标链接或绝对 URL>"
+
+  # 主页标签设置
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # 个人资料模式设置
+  profileMode:
+    enabled: false # 显示个人资料需显式设置为 true
+    title: ExampleSite
+    subtitle: "这是副标题"
+    imageUrl: "<图片位置>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # 主页信息模式设置
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  # 社交图标设置
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/"
+
+  # 分析工具设置
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  # 封面设置
+  cover:
+    hidden: true # 在所有页面隐藏但在结构化数据中显示
+    hiddenInList: true # 在列表页面和首页隐藏
+    hiddenInSingle: true # 在单个页面隐藏
+
+  # 编辑帖子链接设置
+  editPost:
+    URL: "https://github.com/<仓库路径>/content"
+    Text: "Suggest Changes" # 编辑链接文本
+    appendFilePath: true # 在编辑链接中附加文件路径
+
+ # 搜索配置
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # 参考: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+# 菜单配置
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: example
+      name: example.org
+      url: https://example.org
+      weight: 30
+
+# 代码高亮设置
+# 阅读: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
